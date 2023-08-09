@@ -5,7 +5,7 @@ def circle ():
     print(area,Calculators)
     if area >=10 :
         print ("circle big")
-    elif area < 10 :
+    elif area < 10 and 10 and area >0 :
 
         print ("circle small")
     elif area <= 0 :
@@ -21,7 +21,7 @@ def triangle ():
     print(sp,area)
     if area >= 10:
         print(" big")
-    elif area < 10:
+    elif area < 10 and 10 and area>0:
 
         print(" small")
     elif area <= 0:
@@ -34,7 +34,7 @@ def square():
     print (t,a)
     if a >= 10:
         print(" big")
-    elif a < 10:
+    elif a < 10 and a>0:
 
         print(" small")
     elif a <= 0:
